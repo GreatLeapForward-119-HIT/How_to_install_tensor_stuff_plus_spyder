@@ -13,6 +13,10 @@ Try to install Tensorflow,Tensorlayer,Spyder.
 
 ###3.1 Create a conda environment called tensorflow:
 
+if choose no at the last step， you need to add path use this command.
+
+    export PATH=~/anaconda3/bin:$PATH
+    
 这里注意一定不要安装python2.7，我试过python2.7下安装TensorFlow和TensorLayer，出现错误
     
     # Python 3.5
